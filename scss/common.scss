@@ -1,0 +1,22 @@
+//手机
+@media all and (max-width: 40em){
+
+}
+html,body{
+  background: #f9f9f9;
+  color: $grey1;
+  min-width: 1140px!important;
+}
+.grid-container{
+  max-width: 1140px!important;
+  min-width: 1140px!important;
+}
+
+.el-pagination{
+  text-align: center;
+}
+a{
+  &:hover{
+    color: $main-color;
+  }
+}

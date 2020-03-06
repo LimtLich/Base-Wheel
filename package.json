@@ -1,0 +1,51 @@
+{
+  "name": "hf-race-web",
+  "version": "1.0.0",
+  "description": "www.nuxtcms.com",
+  "author": "limingtao <limingtao@7ipr.com>",
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 PORT=3000 nuxt",
+    "build:test": "cross-env _ENV=test nuxt build",
+    "build:prod": "cross-env _ENV=production nuxt build",
+    "start:test": "cross-env _ENV=test HOST=0.0.0.0 PORT=3000 nuxt start",
+    "start:prod": "cross-env _ENV=production HOST=0.0.0.0 PORT=3000 nuxt start"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/pwa": "^2.5.0",
+    "animejs": "^3.0.1",
+    "async": "^2.6.1",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.0.1",
+    "element-ui": "^2.4.6",
+    "gt3-sdk": "^2.0.0",
+    "js-base64": "^2.5.1",
+    "jsonwebtoken": "^8.1.1",
+    "koa": "^2.4.1",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.9.0",
+    "koa-sslify": "^2.1.2",
+    "koa-static": "^4.0.2",
+    "md5": "^2.2.1",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.24.0",
+    "mongoose": "^5.0.1",
+    "node-sass": "^4.9.3",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.19.1",
+    "numeral": "^2.0.6",
+    "nuxt": "^1.4.2",
+    "postcss-px2rem": "^0.3.0",
+    "query-string": "^6.2.0",
+    "sass-loader": "^7.1.0",
+    "superagent": "^3.8.3",
+    "vue-i18n": "^8.1.0",
+    "vue-moment": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest-node": "^0.4.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

@@ -1,0 +1,18 @@
+//导入基本样式
+@import "base/base";
+
+@import "var";
+@import "common";
+@import "layout";
+@import "el2";
+
+//pages
+@import "pages/index";
+
+//components
+@import "components/index";
+
+
+* {
+  outline: none;
+}
